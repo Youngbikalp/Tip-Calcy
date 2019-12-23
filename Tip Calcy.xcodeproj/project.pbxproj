@@ -13,6 +13,7 @@
 		865A2F6423B0324F006E848B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 865A2F6223B0324F006E848B /* Main.storyboard */; };
 		865A2F6623B03251006E848B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 865A2F6523B03251006E848B /* Assets.xcassets */; };
 		865A2F6923B03251006E848B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 865A2F6723B03251006E848B /* LaunchScreen.storyboard */; };
+		865A2F7323B0618B006E848B /* TipCalc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865A2F7223B0618B006E848B /* TipCalc.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		865A2F6523B03251006E848B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		865A2F6823B03251006E848B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		865A2F6A23B03251006E848B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		865A2F7223B0618B006E848B /* TipCalc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipCalc.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				865A2F5E23B0324F006E848B /* SceneDelegate.swift */,
 				865A2F6023B0324F006E848B /* ViewController.swift */,
 				865A2F6223B0324F006E848B /* Main.storyboard */,
+				865A2F7223B0618B006E848B /* TipCalc.swift */,
 				865A2F6523B03251006E848B /* Assets.xcassets */,
 				865A2F6723B03251006E848B /* LaunchScreen.storyboard */,
 				865A2F6A23B03251006E848B /* Info.plist */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				865A2F7323B0618B006E848B /* TipCalc.swift in Sources */,
 				865A2F6123B0324F006E848B /* ViewController.swift in Sources */,
 				865A2F5D23B0324F006E848B /* AppDelegate.swift in Sources */,
 				865A2F5F23B0324F006E848B /* SceneDelegate.swift in Sources */,
@@ -285,6 +289,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PL6K6K426A;
 				INFOPLIST_FILE = "Tip Calcy/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -302,6 +307,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PL6K6K426A;
 				INFOPLIST_FILE = "Tip Calcy/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
